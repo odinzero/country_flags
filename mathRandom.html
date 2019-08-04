@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- -->
+<html>
+    <head>
+        <title>-= random test =-</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="jq-plugin/jquery/jquery-1.11.1.js"></script>
+        <script src="jq-plugin/shadow-animation/shadow-animation-1.11.js"></script>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body onload="ResizeBody()">
+        <!---------------------------------  ------------------------------------------>
+        <div id="transparentDiv">
+
+            <div id="random2">
+                <!-- setInterval(myFunction(),3000); -->
+                <div id="buttons">
+                    <div id="start_stop">
+                        <button type="button" id="startUser"  onclick="start_user();
+                                disabledStartUser()" >Start</button> 
+                        <button type="button" id="stopUser"  onclick="stop_user();
+                                disabledStopUser()" >Stop</button>
+                    </div>
+                    <div id="zoomX">
+                        <button type="button" id="plus">Zoom +</button>
+                        <button type="button" id="minus">Zoom -</button>
+                        <button type="button" id="reset">Reset</button>
+                    </div>
+                    <div id="statistics">
+                        <button type="button" id="statist" onclick="animationCloseOpen();
+                                showCommonSelector();
+                                initSelector1()" >Statistics</button> <!-- createStatistics() -->  
+                    </div>
+                </div>
+
+                <p id="demo1"></p>
+
+                <div id="tfield">
+                    <input type="text" id="attempt"  onkeydown="checkEnter()"  />
+                    <button type="button" id="next" onclick="nextButton()">Next >></button> 
+                    <button type="button" id="enter" onclick="enterFromButton()"> Enter </button> 
+                </div>
+
+                <div id="time">
+                    <div id="timeCount"></div>
+                    <div id="graphicCount">
+                        <span class="gCount"></span>
+                        <span class="gCount"></span>
+                        <span class="gCount"></span>
+                        <span class="gCount"></span>
+                        <span class="gCount"></span>
+                        <span class="gCount"></span>
+                        <span class="gCount"></span>
+                        <span class="gCount"></span>
+                        <span class="gCount"></span>
+                        <span class="gCount"></span>
+                        <span class="gCount"></span>
+                        <span class="gCount"></span>
+                        <span class="gCount"></span>
+                    </div>  
+                </div> 
+
+                <div id="settings">
+                    <span id="titleSettings">settings:</span>
+                    <hr>
+                    <div id="lifeCover">
+                        <label id="attemp0">Lifes:<span id="lifes"> 5</span> </label> 
+                        <label id="attemp1">Score:<span id="score"> 0</span> </label> 
+                        <label id="attemp2">Errors:<span id="error"> 0</span> </label> 
+                    </div>
+                    <div id="timeH">
+                        <input type="checkbox" id="timeHelper" onclick="addListenerCounter()" >Time helper
+                        <input type="checkbox" id="tooltipCountryNames" onclick="allow_block_Tooltip()" >Tooltip Country Names
+                    </div>
+                </div>
+            </div>
+
+            <p id="history"></p>
+            <div id="showStatistics">
+                <div id="titleStatistics">
+                    <button type="button" id="allRandom"  onclick="filter_showAll();
+                            unblockStatistics()" > All </button> 
+                    <button type="button" id="onlyGood"   onclick="filter_OnlyGood();
+                            unblockStatistics()" >Only Good</button> 
+                    <button type="button" id="onlyError"  onclick="filter_OnlyError();
+                            unblockStatistics()" >Only Error</button> 
+                    <button type="button" id="onlyEmpty"  onclick="filter_OnlyEmpty();
+                            unblockStatistics()" >Only Empty</button>
+                    <button type="button" id="disableClear"  onclick="unblockStatistics()" >Disable Clear</button>
+                    <button type="button" id="clear"  onclick="clearAll()" >Clear</button>
+                    <button type="button" id="statMenu"  >Menu</button>
+                </div>
+                <div id="pages"> </div>
+            </div>
+
+            <iframe id="Menu" frameborder="no"  src="jq-plugin/accordion/accordion.html"></iframe>
+
+            <div id="manageMenu" >
+                <div id="titleMainMenu" >MENU</div>
+            </div>
+
+            <script>
+                function ResizeBody() {
+                    document.body.style.width = "1000px";
+                    document.body.style.height = "600px";
+                }
+
+                function unblockStatistics()
+                {
+                    // if  BUTTON 'Clear' is  clicked  --> statistics is not exists
+                    // it need cancel action BUTTON 'Clear'
+                    clearBlock = false;
+                }
+                //----------------------- DIV 'MENU' ------------------------------
+                var titleMainMenu = document.getElementById("titleMainMenu");
+                var showMainMenu = 0;
+
+                titleMainMenu.addEventListener("click", function()
+                {
+                    if (!showMainMenu)
+                    {
+                        firstClick_mainMenu();
+                        showMainMenu = 1;
+                    }
+                    else
+                    {
+                        secondClick_mainMenu();
+                        showMainMenu = 0;
+                    }
+                });
+                titleMainMenu.addEventListener("mouseover", function()
+                {
+                    titleMainMenu.style.background = "orange";
+                    titleMainMenu.style.color = "gray";
+                });
+                titleMainMenu.addEventListener("mouseout", function()
+                {
+                    titleMainMenu.style.background = "#ccff00";
+                    titleMainMenu.style.color = "#9999ff";
+                });
+            </script>
+
+            <script src="core.js"></script>
+            <script src="buttonActions.js"></script>
+            <script src="effect.js"></script>
+            <script src="showAllPages.js"></script>
+            <script src="statistics.js"></script>
+            <script src="statisticsMenu.js"></script>
+            <script src="pages.js"></script>
+            <script src="pagesHidden.js"></script>
+            <script src="graphStatistics.js"></script>
+            <script src="randomStatistics.js"></script>
+            <script src="randomCnts.js"></script>
+            <script src="commonSelector_algorythm.js"></script>
+            <script src="commonSelector.js"></script>
+            <script src="jsonData.js"></script>
+            <script src="lang.rus.country.js"></script>
+            <script src="lang.eng.country.js"></script>
+            <script src="lang.eng.rus.country.js"></script>
+            <script src="image.country.js"></script>
+        </div>
+    </body>
+</html>

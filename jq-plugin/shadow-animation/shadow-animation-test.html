@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>Shadow animation jQuery plugin</title>
+        <link href="demo.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Shadow animation jQuery plugin</h1>
+
+        <div id="body">
+
+            <h2>Example</h2>
+
+            <p>Change the shadow to a centered 30 pixel blur with the color blue (#44f):</p>
+
+            <code>
+                $('#box1').animate({boxShadow: '0 0 30px #44f'});
+            </code>
+
+            <h2>Demo</h2>
+
+            <div id="box1" onmouseover="jQuery(this).stop().animate({boxShadow: '0 0 30px #44f'})"
+                           onmouseout="jQuery(this).stop().animate({boxShadow: '0 0 10px #000'})">mouse over</div>
+
+            <div id="box2" onmouseover="jQuery(this).stop().animate({boxShadow: '-30px 0 30px #699, 30px 0 30px #969, 0 -30px 30px #996, 0 30px 30px #669'})"
+                            onmouseout="jQuery(this).stop().animate({boxShadow: '0 0 10px #699, 0 0 10px #969, 0 0 10px #996, 0 0 30px #669'})">mouse over</div>
+
+            <div id="box3" onmouseover="jQuery(this).stop().animate({boxShadow: '0 0 50px'}, 'fast')" 
+                            onmouseout="jQuery(this).stop().animate({boxShadow: '0 0 0'}, 'fast')">mouse over</div>
+
+            <div id="box4" onmousedown="jQuery(this).stop().animate({boxShadow: '3px 3px 3px', top: 3}, 'fast')"
+                             onmouseup="jQuery(this).stop().animate({boxShadow: '10px 10px 15px', top: 0}, 'fast')">click me</div>
+
+        </div>
+
+        <script src="../../../js/libs/jquery/jquery-1.11.1.js"></script>
+        <script>
+                    jQuery.noConflict();
+        </script>
+        <script src="shadow-animation-1.11.js"></script>
+
+       
+
+    </body>
+</html>

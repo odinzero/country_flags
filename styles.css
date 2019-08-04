@@ -1,0 +1,335 @@
+body
+{
+    height: 900px; 
+    width: 1000px; 
+} 
+
+#random2
+{
+    position: absolute;
+    left: 400px;
+    top: 5px;
+    height: 300px;
+    width: 100px;
+}
+#demo1
+{
+    float: left;
+    left: 125px;
+    top: 5px;
+    height: 120px;
+    width: 350px;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #66ff33;
+    text-align: center;
+    padding-top: 80px ;
+    border: 2px solid #ffccff;
+    display: none;
+}
+/*------------------------------------------------------------------------- */           
+#buttons
+{
+    width: 500px;
+    height: 40px;
+    background: #66ff66;
+    border: 2px solid #ffccff;
+    border-radius: 5px 5px;
+    margin-top: 10px;
+}
+#start_stop
+{
+    float:left;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+#zoomX
+{
+    float:left;
+    width: 205px;
+    height: 30px;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+#statistics
+{
+    float:right;
+    padding-top: 10px;
+    margin-right: 5px;
+}
+/* ---------------------------------------------------------------------------*/ 
+#tfield
+{
+    float: left;
+    width:500px;
+    height: 130px;
+    background: #66ff33;
+    border: 2px solid #ffccff;
+    border-radius: 5px 5px;
+    margin-bottom:10px;
+    display: none;
+}
+#attempt
+{
+    width: 185px;
+    height: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px 5px;
+    margin-top: 15px;
+    margin-left:150px;
+    margin-bottom:10px;
+}
+#next
+{  
+    position: relative;
+    left: -138px;
+    top: 30px;
+    width: 65px;
+    margin-left:5px;
+    margin-bottom:5px;
+}
+#enter
+{  
+    position: relative;
+    left: -216px;
+    top: 70px;
+    width: 75px;
+    margin-left:5px;
+    margin-bottom:5px;
+}
+/* ---------------------------------------------------------------------------*/            
+#time
+{
+    float: next; 
+    width: 500px;
+    height: 30px;
+    display: none;
+}
+#timeCount
+{
+    float:right;
+    width: 35px;
+    height: 27px;
+    background: #9999ff;
+    padding: 3px 3px 3px 3px;
+    color: white;
+    border: 2px solid #ffcccc;
+    border-radius: 5px 5px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;  
+}
+#graphicCount
+{ 
+    float:left;
+    width: 440px;
+    height: 30px;
+    background: #ccccff;
+    padding-top: 3px;
+    color: white;
+    border: 2px solid #ffcccc;
+    border-radius: 5px 5px;
+}
+/*---------------------------- ALL BUTTONS ------------------------------------*/
+#disableClear { display: none; }
+
+#stopUser:enabled, #startUser:enabled, #plus:enabled, #minus:enabled,
+#reset:enabled,  #next:enabled, #statist:enabled, #enter:enabled, #allRandom:enabled,
+#onlyGood:enabled, #onlyError:enabled, #onlyEmpty:enabled, #clear:enabled , #disableClear:enabled
+{
+    background: wheat;
+    color:black;
+}
+#stopUser:disabled, #startUser:disabled, #plus:disabled, #minus:disabled,
+#reset:disabled,  #next:disabled, #statist:disabled, #enter:disabled, #allRandom:disabled,
+#onlyGood:disabled, #onlyError:disabled, #onlyEmpty:disabled, #clear:disabled, #disableClear:disabled
+{
+    background: #cccccc;
+    color:whitesmoke;
+}
+#startUser, #stopUser, #plus, #minus, #reset,  #next, #statist, #enter, #allRandom,
+#onlyGood, #onlyError, #onlyEmpty, #clear, #disableClear, #button_right, #button_left,
+#button_reset, #button_cancel, #button_ok, #button_close
+{
+    border-radius: 4px 4px;
+    background: wheat;
+    font-family: "Arial";
+}
+#startUser:hover, #stopUser:hover, #plus:hover, #minus:hover, #reset:hover,  #next:hover,
+#statist:hover, #enter:hover, #allRandom:hover,
+#onlyError:hover, #onlyEmpty:hover, #clear:hover, #statMenu:hover, #button_right:hover,
+#button_left:hover, #button_reset:hover, #button_cancel:hover, #button_ok:hover,
+#button_close:hover
+{
+    background: #ffcc00;
+    color: #ff6666;
+    font-weight: bold;
+}
+
+#statMenu
+{
+    border-radius: 7px 9px;
+    background: wheat;
+    font-family: "Arial";
+}
+
+/* ---------------------------------------------------------------------------*/            
+#settings
+{
+    float: left; 
+    width: 500px;
+    height: 100px;
+    background: #66ff33;
+    border-radius: 5px 5px;
+    border: 2px solid #ffccff;
+    margin-top: 10px;
+    font-family: "Arial";
+}
+#titleSettings
+{
+    display: block;
+    padding-top: 2px;
+    padding-bottom: 2px; 
+    padding-left: 10px;
+    margin-bottom: -8px;
+    background: #339900;
+    border-radius: 2px 2px;
+    color: wheat;
+
+}
+#lifeCover
+{
+    display: table-row;
+    width: 500px;
+    background: #ccff00;
+    margin-left: 10px;
+    font-size: 18px;
+    color:#9999ff;
+}
+#timeH
+{
+    width: 495px;
+    background: #ccff00;
+    margin-top: 10px;
+    font-size: 18px;
+    color:#9999ff;
+}
+#tooltipCountryNames
+{
+    margin-left: 70px;
+}
+#attemp0, #attemp1, #attemp2 
+{
+    display: table-cell;
+    margin-left: 10px;
+    padding: 5px 5px;
+
+}
+#attemp1
+{
+    padding-left: 140px;
+}
+#attemp2
+{
+    padding-left: 140px;
+}
+/*---------------------------- Statistics ------------------------------------
+  width: 370px
+  height: 550px 
+  
+*/         
+#showStatistics
+{
+    position:  absolute;
+    top: 15px;
+    left: 930px;
+    width: 5px;
+    height: 5px; 
+    background: #ccff00;
+    border: 2px solid #ffccff;
+    border-radius: 5px 5px;
+    display: inline;
+    opacity: 0; 
+}
+#titleStatistics
+{
+    float:left;
+    width: 400px;
+    height: 30px;
+    background: #99ff99;
+    border-bottom: 1px solid #66ff00;
+}
+#pages
+{
+    float:left;
+    width: 360px;
+    height: 30px;
+    background: #99ff99;
+    border-bottom: 1px solid #66ff00;
+    display: none;
+}
+#allRandom
+{
+    margin-left: 5px;
+    margin-top: 4px;
+}
+/*---------------------------- History ----------------------------------------*/ 
+#history
+{
+    position:  absolute;
+    top: 0px;
+    left: 25px;
+    height: 500px;
+    width: 340px;
+    background: #ccff00;
+    overflow-y: none;
+    text-align: center;
+    border: 2px solid #ffccff;
+    border-radius: 5px 5px;
+    z-index: 5;
+    
+}
+
+ /*--------------------------- manage menu ----------------------------------- */
+ #Menu
+ {
+     position: absolute;
+     top: 10px;
+     left: -200px;
+     width: 230px;
+     height: 320px;
+ }
+ 
+ #manageMenu
+ {
+     position: absolute;
+     top: 310px;
+     left: 4px;
+     width: 80px; 
+     height: 40px;
+     border: 2px solid #ffccff;
+     border-radius: 5px 5px;
+     color:#9999ff;
+     font-family: "Arial";
+     background: #66ff66;
+ }
+ 
+ #titleMainMenu
+ {
+     position: relative;
+     top: 5px;
+     width: 70px; 
+     height: 25px;
+     font-size: 18px;
+     background: #ccff00;
+     text-align: center;
+     padding-top: 5px;
+     cursor: pointer;
+ }
+ 
+ 

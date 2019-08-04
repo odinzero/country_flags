@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../../../js/libs/jquery/jquery-1.11.1.js"></script>
+        <script src="ddsclick_test.js"></script>
+        <script src="data.js"></script>
+        <!-- ddsclick.js -->
+        <style>
+            /* ddSlick - Select with images */
+            /*   .dd-select{
+                   height:55px;
+                   color:#333;
+               }
+   
+               .dd-option-image{
+                   max-width:30px!important;
+               }
+   
+               .dd-selected-image{ 
+                   max-width:30px!important;
+               }
+   
+               .dd-option-text{
+                   line-height: 28px!important;
+                   margin-top: 1px!important; 
+                   font-weight: normal; 
+                   color: #333; 
+               }
+   
+               .dd-selected-text{
+                   margin-top:-12px!important;
+                   font-weight: normal;
+                   color: #333; 
+               }
+   
+               #demoBasic1
+               {
+                   position: absolute; left: 400px; top: 20px;width: 160px; height: 400px;
+               }
+               #demoBasic2
+               {
+                   position: absolute; left: 900px; top: 20px;width: 160px; height: 400px;
+               }
+               
+            */
+        </style>
+    </head>
+    <body>
+
+        <select id="demoBasic1" >
+         <option value="0" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/facebook-icon-32.png"
+                       data-description="Description with Facebook">Facebook</option>
+         </select>
+        
+        
+        <div style="position: absolute; left: 300px;">
+            <button class="close">close</button>
+            <button class="open">open</button>
+            <button class="destroy">destroy</button>
+            <button class="create">create</button>
+            <button class="select">select</button>
+        </div>
+
+        <!--<select id="demoBasic20" ></select> -->
+
+        <script>
+            $('#demoBasic1').ddslick({
+                data: ddData,
+                width: 260,
+                height: null,
+                clickOffToClose: false,
+                defaultSelectedIndex: 1,
+                imagePosition: "left",
+                keepJSONItemsOnTop: true,
+                // selectText: "Select your favorite social network",
+                onSelected: function(data) {
+                }
+            });
+
+            $('.open').click(function() {
+                $('#demoBasic1').ddslick('open');
+            });
+
+            $('.close').click(function() {
+                $('#demoBasic1').ddslick('close');
+            });
+
+            $('.destroy').click(function() {
+                $('#demoBasic1').ddslick('destroy');
+            });
+
+            $('.create').click(function() {
+                $('#demoBasic1').ddslick({
+                    data: ddData,
+                    width: 260,
+                    height: null,
+                    clickOffToClose: false,
+                    defaultSelectedIndex: 1,
+                    showSelectedHTML: true, 
+                    imagePosition: "left",
+                    // selectText: "Select your favorite social network",
+                    onSelected: function(data) {
+                    }
+                });
+            });
+
+            $('.select').click(function() {
+                $('#demoBasic1').ddslick('select', {index: 3 });
+            });
+
+
+
+            $('#demoBasic2').ddslick({
+                data: ddData,
+                onSelected: function(selectedData) {
+                    //callback function: do something with selectedData;  
+                }
+            });
+
+            $('#demoBasic2').ddslick('open');
+
+            var d1 = document.getElementById("#demoBasic1");
+            var d2 = document.getElementById("#demoBasic2");
+
+
+
+        </script>
+
+        <div id="demoBasic3" class="dd-container" style=" position: absolute; right:300px; width: 260px;">
+            <div class="dd-select" style="width: 260px; background: rgb(238, 238, 238);">
+                <input class="dd-selected-value" type="hidden">
+                <a class="dd-selected">Select your favorite social network</a>
+                <span class="dd-pointer dd-pointer-down"></span>
+            </div>
+            <ul class="dd-options dd-click-off-close" style="width: 260px; ">
+                <li>
+                    <a class="dd-option">
+                        <input class="dd-option-value" type="hidden" value="FB"> 
+                        <img class="dd-option-image" src="http://dl.dropbox.com/u/40036711/Images/facebook-icon-32.png">
+                        <label class="dd-option-text">Facebook</label> 
+                        <small class="dd-option-description dd-desc">Description with Facebook</small>
+                    </a>
+                </li>
+                <li>
+                    <a class="dd-option"> 
+                        <input class="dd-option-value" type="hidden" value="TWT">
+                        <img class="dd-option-image" src="http://dl.dropbox.com/u/40036711/Images/twitter-icon-32.png"> 
+                        <label class="dd-option-text">Twitter</label>
+                        <small class="dd-option-description dd-desc">Description with Twitter</small>
+                    </a>
+                </li>
+                <li>
+                    <a class="dd-option"> <input class="dd-option-value" type="hidden" value="LI"> 
+                        <img class="dd-option-image" src="http://dl.dropbox.com/u/40036711/Images/linkedin-icon-32.png">
+                        <label class="dd-option-text">LinkedIn</label>
+                        <small class="dd-option-description dd-desc">Description with LinkedIn</small>
+                    </a>
+                </li>
+                <li>
+                    <a class="dd-option"> 
+                        <input class="dd-option-value" type="hidden" value="FSQ"> 
+                        <img class="dd-option-image" src="http://dl.dropbox.com/u/40036711/Images/foursquare-icon-32.png">
+                        <label class="dd-option-text">Foursquare</label>
+                        <small class="dd-option-description dd-desc">Description with Foursquare</small>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <script>
+            //   $('#demoBasic3').ddslick({ data: ddData });
+
+            // $('#demoBasic3').ddslick({
+            //     //data: ddData,
+            //     width: 260,
+            //     height: null,
+            //     clickOffToClose: false,
+            //     imagePosition: "left",
+            // selectText: "Select your favorite social network",
+            //     onSelected: function(data) {
+            //        console.log(data);
+            //     }
+            // });
+            //  $('#demoBasic').ddslick('open');
+        </script>
+
+        <!--   <select id="demo-htmlselect" size="5">
+               <option value="0" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/facebook-icon-32.png"
+                       data-description="Description with Facebook">Facebook</option>
+               <option value="1" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/twitter-icon-32.png"
+                       data-description="Description with Twitter">Twitter</option>
+               <option value="2" selected="selected" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/linkedin-icon-32.png"
+                       data-description="Description with LinkedIn">LinkedIn</option>
+               <option value="3" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/foursquare-icon-32.png"
+                       data-description="Description with Foursquare">Foursquare</option>
+           </select>
+        -->
+
+        <script>
+            $('#demo-htmlselect').ddslick({
+                onSelected: function(selectedData) {
+                    //callback function: do something with selectedData;
+                }
+            });
+            $('#demo-htmlselect').ddslick('open');
+
+            var r = document.getElementById("right");
+            var l = document.getElementById("left");
+
+            //  r.addEventListener("click", function() {
+            //move(d1, d2);
+            //alert(select2.length);
+            //  });
+            //  l.addEventListener("click", function() {
+            // move(d2, d1);
+            //  });
+        </script>
+
+    </body>
+</html>

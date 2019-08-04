@@ -1,0 +1,91 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery UI Accordion - Default functionality</title>
+        <link rel="stylesheet" href="jquery-ui.css">
+        <link rel="stylesheet" href="accordion.css">
+        <script src="../jquery/jquery-1.11.1.js"></script>
+        <script src="jquery-ui.js"></script>
+        <style>
+           #accordion
+           {
+               height: 200px;
+               width: 200px;
+           }
+           .m1:hover
+           {
+               background: #99ff99;
+           }
+           .m1 { border: 5px outset lightgreen; }
+           p { font-family: "Arial"; font-size: 18px; }
+           .dd
+           {
+               background: #ccff00;
+               margin-bottom: 5px;
+           }
+           .dd1
+           {
+               background: #ccff00;
+               margin-top: -15px;
+           }
+           .dd2
+           {
+               background: #ccff00;
+               margin-top: 5px;
+               margin-bottom: 5px;
+           }
+        </style>
+        <script>
+            //$( "#selector" ).accordion({
+            //    header: "h3"
+            // });
+            // Getter
+            // var header = $("#selector").accordion("option", "header");
+
+            // Setter
+            //  $("#selector").accordion("option", "header", "h3");
+
+            $(function() {
+                $("#accordion").accordion({
+                    collapsible: true,
+                    active : false,
+                    event: "click"
+                });
+            });
+
+            // Getter
+           // var event = $(".selector").accordion("option", "event");
+
+            // Setter
+           // $(".selector").accordion("option", "event", "click");
+
+        </script>
+    </head>
+    <body>
+
+        <div id="accordion">
+            <span class="m1">Country Flags</span>
+            <div>
+                <p class="dd"><input type="checkbox" value="countryFlags" name="countryFlags" >add country flags</p>
+            </div>
+            <span class="m1">HTML tags</span>
+            <div>
+                <p class="dd"><input type="checkbox" value="HTMLtags" name="HTMLtags" >add HTML tags </p>
+            </div>
+            <span class="m1">Choice</span>
+            <div>
+                <p class="dd"><input type="checkbox" value="showChoice" name="showChoice" >show choice</p>
+            </div>
+            <span class="m1">Statistics</span>
+            <div>
+                </br>
+                <div class="dd1"><input type="checkbox" value="save" name="save"  >save statistics</div>
+                <div class="dd2"><input type="checkbox" value="randomStat" name="randomStat" >random statistics</div>
+            </div>
+        </div>
+
+
+    </body>
+</html>

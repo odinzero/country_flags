@@ -1,0 +1,1494 @@
+{
+    "country":
+            [
+                {
+                    "state": "Абхазия",
+                    "full_name": "Республика Абхазия",
+                    "en_name": "Abkhazia",
+                    "flag": "images/flags/Abkhazia.svg.png"
+                },
+                {
+                    "state": "Австралия",
+                    "full_name": "Австралийский Союз",
+                    "en_name": "Australia",
+                    "flag": "images/flags/Australia.svg.png"
+                },
+                {
+                    "state": "Австрия",
+                    "full_name": "Австрийская Республика",
+                    "en_name": "Austria",
+                    "flag": "images/flags/Austria.svg.png"
+                },
+                {
+                    "state": "Азербайджан",
+                    "full_name": "Азербайджанская Республика",
+                    "en_name": "Azerbaijan",
+                    "flag":"images/flags/Azerbaijan.svg.png"
+                },
+                {
+                    "state": "Аландские острова",
+                    "full_name": "автономная территория Финляндии",
+                    "en_name": "Åland",
+                    "flag": "images/flags/Åland.svg.png"
+                },
+                {
+                    "state": "Албания",
+                    "full name": "Республика Албания",
+                    "en_name": "Albania",
+                    "flag": "images/flags/Albania.svg.png"
+                },
+                {
+                    "state": "Алжир",
+                    "full_name": "Алжирская Народная Демократическая Республика",
+                    "en_name": "Algeria",
+                    "flag": "images/flags/Algeria.svg.png"
+                },
+                {
+                    "state": "Ангилья",
+                    "full_name": "заморская территория Великобритании",
+                    "en_name": "Anguilla",
+                    "flag": "images/flags/Anguilla.svg.png"
+                },
+                {
+                    "state": "Ангола",
+                    "full_name": "Республика Ангола",
+                    "en_name": "Angola",
+                    "flag": "images/flags/Angola.svg.png"
+                },
+                {
+                    "state": "Андорра",
+                    "full_name": "Княжество Андорра",
+                    "en_name": "Andorra",
+                    "flag": "images/flags/Andorra.svg.png"
+                },
+                {
+                    "state": "Антигуа и Барбуда",
+                    "full_name": "",
+                    "en_name": "Antigua and Barbuda",
+                    "flag": "images/flags/Antigua_and_Barbuda.svg.png"
+                },
+                {
+                    "state": "Аргентина",
+                    "full_name": "Аргентинская Республика",
+                    "en_name": "Argentina",
+                    "flag": "images/flags/Argentina.svg.png"
+                },
+                {
+                    "state": "Армения",
+                    "full_name": "Республика Армения",
+                    "en_name": "Armenia",
+                    "flag": "images/flags/Armenia.svg.png"
+                },
+                {
+                    "state": "Аруба",
+                    "full_name": "самоуправляемое государство со значительной автономией в составе Королевства Нидерландов. До 1986 года: Нидерландские Антильские острова",
+                    "en_name": "Aruba",
+                    "flag": "images/flags/Aruba.svg.png"
+                },
+                {
+                    "state": "Афганистан",
+                    "full_name": "Исламская Республика Афганистан",
+                    "en_name": "Afghanistan",
+                    "flag": "images/flags/Afghanistan.svg.png"
+                },
+                {
+                    "state": "Багамские Острова",
+                    "full_name": "Содружество Багамских Островов",
+                    "en_name": "Bahamas",
+                    "flag": "images/flags/Bahamas.svg.png"
+                },
+                {
+                    "state": "Бангладеш",
+                    "full name": "Народная Республика Бангладеш",
+                    "en_name": "Bangladesh",
+                    "flag": "images/flags/Bangladesh.svg.png"
+                },
+                {
+                    "state": "Барбадос",
+                    "full_name": "",
+                    "en_name": "Barbados",
+                    "flag": "images/flags/Barbados.svg.png"
+                },
+                {
+                    "state": "Бахрейн",
+                    "full_name": "Королевство Бахрейн",
+                    "en_name": "Bahrain",
+                    "flag": "images/flags/Bahrain.svg.png"
+                },
+                {
+                    "state": "Белиз",
+                    "full_name": "",
+                    "en_name": "Belize",
+                    "flag": "images/flags/Belize.svg.png"
+                },
+                {
+                    "state": "Белоруссия",
+                    "full_name": "Республика Беларусь",
+                    "en_name": "Belarus",
+                    "flag": "images/flags/Belarus.svg.png"
+                },
+                {
+                    "state": "Бельгия",
+                    "full_name": "Королевство Бельгия",
+                    "en_name": "Belgium",
+                    "flag": "images/flags/Belgium.svg.png"
+                },
+                {
+                    "state": "Бенин",
+                    "full_name": "Республика Бенин",
+                    "en_name": "Benin",
+                    "flag": "images/flags/Benin.svg.png"
+                },
+                {
+                    "state": "Бермудские Острова",
+                    "full_name": "заморская территория Великобритании. Альтернативное название: Бермуды",
+                    "en_name": "Bermuda",
+                    "flag": "images/flags/Bermuda.svg.png"
+                },
+                {
+                    "state": "Болгария",
+                    "full_name": "Республика Болгария",
+                    "en_name": "Bulgaria",
+                    "flag": "images/flags/Bulgaria.svg.png"
+                },
+                {
+                    "state": "Боливия",
+                    "full_name": "Многонациональное Государство Боливия",
+                    "en_name": "Bolivia",
+                    "flag": "images/flags/Bolivia.svg.png"
+                },
+                {
+                    "state": "Бонэйр",
+                    "full_name": "особая община в составе Карибских Нидерландов. До 2010 года: Нидерландские Антильские острова",
+                    "en_name": "Bonaire",
+                    "flag": "images/flags/Bonaire.svg.png"
+                },
+                {
+                    "state": "Босния и Герцеговина",
+                    "full_name": "состоит из двух самоуправляющихся образований — Республики Сербской и Федерации Боснии и Герцеговины",
+                    "en_name": "Bosnia and Herzegovina",
+                    "flag": "images/flags/Bosnia_and_Herzegovina.svg.png"
+                },
+                {
+                    "state": "Ботсвана",
+                    "full_name": "Республика Ботсвана",
+                    "en_name": "Botswana",
+                    "flag": "images/flags/Botswana.svg.png"
+                },
+                {
+                    "state": "Бразилия",
+                    "full_name": "Федеративная Республика Бразилия",
+                    "en_name": "Brazil",
+                    "flag": "images/flags/Brazil.svg.png"
+                },
+                {
+                    "state": "Бруней",
+                    "full_name": "Государство Бруней - Даруссалам",
+                    "en_name": "Brunei",
+                    "flag": "images/flags/Brunei.svg.png"
+                },
+                {
+                    "state": "Буркина - Фасо",
+                    "full_name": "До 1984 года: Республика Верхняя Вольта",
+                    "en_name": "Burkina Faso",
+                    "flag": "images/flags/Burkina_Faso.svg.png"
+                },
+                {
+                    "state": "Бурунди",
+                    "full_name": "Республика Бурунди",
+                    "en_name": "Burundi",
+                    "flag": "images/flags/Burundi.svg.png"
+                },
+                {
+                    "state": "Бутан",
+                    "full_name": "Королевство Бутан",
+                    "en_name": "Bhutan",
+                    "flag": "images/flags/Bhutan.svg.png"
+                },
+                {
+                    "state": "Вануату",
+                    "full_name": "Республика Вануату",
+                    "en_name": "Vanuatu",
+                    "flag": "images/flags/Vanuatu.svg.png"
+                },
+                {
+                    "state": "Ватикан",
+                    "full_name": "Государство - город Ватикан",
+                    "en_name": "Vatican City",
+                    "flag": "images/flags/Vatican_City.svg.png"
+                },
+                {
+                    "state": "Великобритания",
+                    "full_name": "Соединённое Королевство Великобритании и Северной Ирландии",
+                    "en_name": "United Kingdom",
+                    "flag": "images/flags/United_Kingdom.svg.png"
+                },
+                {
+                    "state": "Венгрия",
+                    "full_name": "",
+                    "en_name": "Civil Ensign of Hungary",
+                    "flag": "images/flags/Civil_Ensign_of_Hungary.svg.png"
+                },
+                {
+                    "state": "Венесуэла",
+                    "full_name": "Боливарианская Республика Венесуэла",
+                    "en_name": "Venezuela",
+                    "flag": "images/flags/Venezuela.svg.png"
+                },
+                {
+                    "state": "Виргинские Острова",
+                    "full_name": "Американские Виргинские острова",
+                    "en_name": "United States Virgin Islands",
+                    "flag": "images/flags/United_States_Virgin_Islands.svg.png"
+                },
+                {
+                    "state": "Виргинские Острова",
+                    "full_name": "Британские Виргинские острова",
+                    "en_name": "British Virgin Islands",
+                    "flag": "images/flags/British_Virgin_Islands.svg.png"
+                },
+                {
+                    "state": "Восточный Тимор",
+                    "full_name": "Демократическая Республика Восточный Тимор",
+                    "en_name": "East Timor",
+                    "flag": "images/flags/East_Timor.svg.png"
+                },
+                {
+                    "state": "Вьетнам",
+                    "full_name": "Социалистическая Республика Вьетнам",
+                    "en_name": "Vietnam",
+                    "flag": "images/flags/Vietnam.svg.png"
+                },
+                {
+                    "state": "Габон",
+                    "full_name": "Габонская Республика",
+                    "en_name": "Gabon",
+                    "flag": "images/flags/Gabon.svg.png"
+                },
+                {
+                    "state": "Гаити",
+                    "full_name": "Республика Гаити",
+                    "en_name": "Haiti",
+                    "flag": "images/flags/Haiti.svg.png"
+                },
+                {
+                    "state": "Гайана",
+                    "full_name": "Кооперативная Республика Гайана",
+                    "en_name": "Guyana",
+                    "flag": "images/flags/Guyana.svg.png"
+                },
+                {
+                    "state": "Гамбия",
+                    "full_name": "Республика Гамбия",
+                    "en_name": "Gambia",
+                    "flag": "images/flags/Gambia.svg.png"
+                },
+                {
+                    "state": "Гана",
+                    "full_name": "Республика Гана",
+                    "en_name": "Ghana",
+                    "flag": "images/flags/Ghana.svg.png"
+                },
+                {
+                    "state": "Гваделупа",
+                    "full_name": "заморский регион Франции",
+                    "en_name": "Guadeloupe",
+                    "flag": "images/flags/Guadeloupe.svg.png"
+                },
+                {
+                    "state": "Гватемала",
+                    "full_name": "Республика Гватемала",
+                    "en_name": "Guatemala",
+                    "flag": "images/flags/Guatemala.svg.png"
+                },
+                {
+                    "state": "Гвиана",
+                    "full_name": "Французская Гвиана: заморский регион Франции",
+                    "en_name": "Guyane",
+                    "flag": "images/flags/Guyane.jpg"
+                },
+                {
+                    "state": "Гвинея",
+                    "full_name": "Гвинейская Республика",
+                    "en_name": "Guinea",
+                    "flag": "images/flags/Guinea.svg.png"
+                },
+                {
+                    "state": "Гвинея-Бисау",
+                    "full_name": "Республика Гвинея-Бисау",
+                    "en_name": "Guinea-Bissau",
+                    "flag": "images/flags/Guinea-Bissau.svg.png"
+                },
+                {
+                    "state": "Германия",
+                    "full_name": "Федеративная Республика Германия",
+                    "en_name": "Germany",
+                    "flag": "images/flags/Germany.svg.png"
+                },
+                {
+                    "state": "Гернси",
+                    "full_name": "коронная земля Великобритании",
+                    "en_name": "Guernsey",
+                    "flag": "images/flags/Guernsey.svg.png"
+                },
+                {
+                    "state": "Гибралтар",
+                    "full_name": "заморская территория Великобритании",
+                    "en_name": "Gibraltar",
+                    "flag": "images/flags/Gibraltar.svg.png"
+                },
+                {
+                    "state": "Гондурас",
+                    "full_name": "Республика Гондурас",
+                    "en_name": "Honduras",
+                    "flag": "images/flags/Honduras.svg.png"
+                },
+                {
+                    "state": "Гонконг",
+                    "full_name": "Специальный административный район Гонконг Китайской Народной Республики: территория, управляемая Китаем на основе специального международного соглашения",
+                    "en_name": "Hong Kong",
+                    "flag": "images/flags/Hong_Kong.svg.png"
+                },
+                {
+                    "state": "Гренада",
+                    "full_name": "",
+                    "en_name": "Grenada",
+                    "flag": "images/flags/Grenada.svg.png"
+                },
+                {
+                    "state": "Гренландия",
+                    "full_name": "зависимая территория (автономный регион) Дании",
+                    "en_name": "Greenland",
+                    "flag": "images/flags/Greenland.svg.png"
+                },
+                {
+                    "state": "Греция",
+                    "full_name": "Греческая Республика",
+                    "en_name": "Greece",
+                    "flag": "images/flags/Greece.svg.png"
+                },
+                {
+                    "state": "Грузия",
+                    "full_name": "",
+                    "en_name": "Georgia",
+                    "flag": "images/flags/Georgia.svg.png"
+                },
+                {
+                    "state": "Гуам",
+                    "full_name": "заморское владение (неприсоединённая территория) США",
+                    "en_name": "Guam",
+                    "flag": "images/flags/Guam.svg.png"
+                },
+                {
+                    "state": "Дания",
+                    "full_name": "Королевство Дания",
+                    "en_name": "Denmark",
+                    "flag": "images/flags/Denmark.svg.png"
+                },
+                {
+                    "state": "Джерси",
+                    "full_name": "коронная земля Великобритании",
+                    "en_name": "Jersey",
+                    "flag": "images/flags/Jersey.svg.png"
+                },
+                {
+                    "state": "Джибути",
+                    "full_name": "Республика Джибути",
+                    "en_name": "Djibouti",
+                    "flag": "images/flags/Djibouti.svg.png"
+                },
+                {
+                    "state": "Доминика",
+                    "full_name": "Содружество Доминики",
+                    "en_name": "Dominica",
+                    "flag": "images/flags/Dominica.svg.png"
+                },
+                {
+                    "state": "Доминиканская Республика",
+                    "full_name": "Доминиканская Республика",
+                    "en_name": "Dominican Republic",
+                    "flag": "images/flags/Dominican_Republic.svg.png"
+                },
+                {
+                    "state": "Египет",
+                    "full_name": "Арабская Республика Египет",
+                    "en_name": "Egypt",
+                    "flag": "images/flags/Egypt.svg.png"
+                },
+                {
+                    "state": "Замбия",
+                    "full_name": "Республика Замбия",
+                    "en_name": "Zambia",
+                    "flag": "images/flags/Zambia.svg.png"
+                },
+                {
+                    "state": "Зимбабве",
+                    "full_name": "Республика Зимбабве",
+                    "en_name": "Zimbabwe",
+                    "flag": "images/flags/Zimbabwe.svg.png"
+                },
+                {
+                    "state": "Израиль",
+                    "full_name": "Государство Израиль",
+                    "en_name": "Israel",
+                    "flag": "images/flags/Israel.svg.png"
+                },
+                {
+                    "state": "Индия",
+                    "full_name": "Республика Индия",
+                    "en_name": "India",
+                    "flag": "images/flags/India.svg.png"
+                },
+                {
+                    "state": "Индонезия",
+                    "full_name": "Республика Индонезия",
+                    "en_name": "Indonesia",
+                    "flag": "images/flags/Indonesia.svg.png"
+                },
+                {
+                    "state": "Иордания",
+                    "full_name": "Иорданское Хашимитское Королевство",
+                    "en_name": "Jordan",
+                    "flag": "images/flags/Jordan.svg.png"
+                },
+                {
+                    "state": "Ирак",
+                    "full_name": "Республика Ирак",
+                    "en_name": "Iraq",
+                    "flag": "images/flags/Iraq.svg.png"
+                },
+                {
+                    "state": "Иран",
+                    "full_name": "Исламская Республика Иран",
+                    "en_name": "Iran",
+                    "flag": "images/flags/Iran.svg.png"
+                },
+                {
+                    "state": "Ирландия",
+                    "full_name": "",
+                    "en_name": "Ireland",
+                    "flag": "images/flags/Ireland.svg.png"
+                },
+                {
+                    "state": "Исландия",
+                    "full_name": "",
+                    "en_name": "Iceland",
+                    "flag": "images/flags/Iceland.svg.png"
+                },
+                {
+                    "state": "Испания",
+                    "full_name": "Королевство Испания",
+                    "en_name": "Spain",
+                    "flag": "images/flags/Spain.svg.png"
+                },
+                {
+                    "state": "Италия",
+                    "full_name": "Итальянская Республика",
+                    "en_name": "Italy",
+                    "flag": "images/flags/Italy.svg.png"
+                },
+                {
+                    "state": "Йемен",
+                    "full_name": "Йеменская Республика",
+                    "en_name": "Yemen",
+                    "flag": "images/flags/Yemen.svg.png"
+                },
+                {
+                    "state": "Кабо-Верде",
+                    "full_name": "Республика Кабо-Верде. До 1986 года: Республика Острова Зелёного Мыса",
+                    "en_name": "Cape Verde",
+                    "flag": "images/flags/Cape_Verde.svg.png"
+                },
+                {
+                    "state": "Казахстан",
+                    "full_name": "Республика Казахстан",
+                    "en_name": "Kazakhstan",
+                    "flag": "images/flags/Kazakhstan.svg.png"
+                },
+                {
+                    "state": "Острова Кайман",
+                    "full_name": "заморская территория Великобритании. Альтернативное название: Кайманы",
+                    "en_name": "Cayman Islands",
+                    "flag": "images/flags/Cayman_Islands.svg.png"
+                },
+                {
+                    "state": "Камбоджа",
+                    "full_name": "Королевство Камбоджа. До 1989 года: Кампучия",
+                    "en_name": "Cambodia",
+                    "flag": "images/flags/Cambodia.svg.png"
+                },
+                {
+                    "state": "Камерун",
+                    "full_name": "Республика Камерун",
+                    "en_name": "Cameroon",
+                    "flag": "images/flags/Cameroon.svg.png"
+                },
+                {
+                    "state": "Канада",
+                    "full_name": "",
+                    "en_name": "Canada",
+                    "flag": "images/flags/Canada.svg.png"
+                },
+                {
+                    "state": "Катар",
+                    "full_name": "Государство Катар",
+                    "en_name": "Qatar",
+                    "flag": "images/flags/Qatar.svg.png"
+                },
+                {
+                    "state": "Кения",
+                    "full_name": "Республика Кения",
+                    "en_name": "Kenya",
+                    "flag": "images/flags/Kenya.svg.png"
+                },
+                {
+                    "state": "Кипр",
+                    "full_name": "Республика Кипр",
+                    "en_name": "Cyprus",
+                    "flag": "images/flags/Cyprus.svg.png"
+                },
+                {
+                    "state": "Турецкая Республика Северного Кипра",
+                    "full_name": "частично признанное государство (признано Турцией); согласно конституции Кипра, входит в состав Кипра",
+                    "en_name": "Turkish Republic of Northern Cyprus",
+                    "flag": "images/flags/Turkish_Republic_of_Northern_Cyprus.svg.png"
+                },
+                {
+                    "state": "Киргизия",
+                    "full_name": "Киргизская Республика или Кыргызстан — Кыргызская Республика",
+                    "en_name": "Kyrgyzstan",
+                    "flag": "images/flags/Kyrgyzstan.svg.png"
+                },
+                {
+                    "state": "Кирибати",
+                    "full_name": "Республика Кирибати",
+                    "en_name": "Kiribati",
+                    "flag": "images/flags/Kiribati.svg.png"
+                },
+                {
+                    "state": "Китайская Республика",
+                    "full_name": "согласно конституции КНР, является провинцией КНР, признана 23[26] государствами как легитимное правительство всего Китая и до 25 октября 1971 года представляла Китай в ООН, включает Тайвань",
+                    "en_name": "Republic of China",
+                    "flag": "images/flags/Republic_of_China.svg.png"
+                },
+                {
+                    "state": "Кокосовые острова",
+                    "full_name": "Территория Кокосовые (Килинг) Острова: внешняя территория Австралии",
+                    "en_name": "Cocos (Keeling) Islands",
+                    "flag": "images/flags/Cocos_Islands.svg.png"
+                },
+                {
+                    "state": "Колумбия",
+                    "full_name": "Республика Колумбия",
+                    "en_name": "Colombia",
+                    "flag": "images/flags/Colombia.svg.png"
+                },
+                {
+                    "state": "Коморские Острова",
+                    "full_name": "Союз Коморских Островов. Альтернативное название: Коморы",
+                    "en_name": "Comoros",
+                    "flag": "images/flags/Comoros.svg.png"
+                },
+                {
+                    "state": "Демократическая Республика Конго",
+                    "full_name": "До 1997 года: Заир. Альтернативное название: ДРК и Конго (Киншаса)",
+                    "en_name": "Democratic Republic of the Congo",
+                    "flag": "images/flags/Democratic_Republic_of_the_Congo.svg.png"
+                },
+                {
+                    "state": "Республика Конго",
+                    "full_name": "Республика Конго.Альтернативное название: Конго (Браззавиль)",
+                    "en_name": "Republic of the Congo",
+                    "flag": "images/flags/Republic_of_the_Congo.svg.png"
+                },
+                {
+                    "state": "Корейская Народно-Демократическая",
+                    "full_name": "Республика Корейская Народно-Демократическая Республика. Альтернативное название: Северная Корея",
+                    "en_name": "North Korea",
+                    "flag": "images/flags/North_Korea.svg.png"
+                }, 
+                {
+                    "state": "Республика Корея",
+                    "full_name": "Республика Корея. Альтернативное название: Южная Корея",
+                    "en_name": "South Korea",
+                    "flag": "images/flags/South_Korea.svg.png"
+                },
+                {
+                    "state": "Республика Косово",
+                    "full_name": "частично признанное государство, находившееся под протекторатом ООН и переходящее под протекторат Евросоюза, которое, согласно конституции Сербии, является Автономным краем Косово и Метохия в составе Сербии",
+                    "en_name": "Kosovo",
+                    "flag": "images/flags/Kosovo.svg.png"
+                },
+                {
+                    "state": "Коста-Рика",
+                    "full_name": "Республика Коста-Рика",
+                    "en_name": "Costa Rica",
+                    "flag": "images/flags/Costa_Rica.svg.png"
+                },
+                {
+                    "state": "Кот-д’Ивуар",
+                    "full_name": "Республика Кот-д’Ивуар. До 1986 года: Берег Слоновой Кости",
+                    "en_name": "Côte d'Ivoire",
+                    "flag": "images/flags/Côte_dIvoire.svg.png"
+                },
+                {
+                    "state": "Куба",
+                    "full_name": "Республика Куба",
+                    "en_name": "Cuba",
+                    "flag": "images/flags/Cuba.svg.png"
+                },
+                {
+                    "state": "Кувейт",
+                    "full_name": "Государство Кувейт",
+                    "en_name": "Kuwait",
+                    "flag": "images/flags/Kuwait.svg.png"
+                },
+                {
+                    "state": "Острова Кука",
+                    "full_name": "Кука острова — самоуправляющееся государственное образование в свободной ассоциации с Новой Зеландией",
+                    "en_name": "Cook Islands",
+                    "flag": "images/flags/Cook_Islands.svg.png"
+                },
+                {
+                    "state": "Кюрасао",
+                    "full_name": "самоуправляемое государство со значительной автономией в составе Королевства Нидерландов. До 2010 года: Нидерландские Антильские острова",
+                    "en_name": "Curaçao",
+                    "flag": "images/flags/Curaçao.svg.png"
+                },
+                {
+                    "state": "Лаос",
+                    "full_name": "Лаосская Народно-Демократическая Республика",
+                    "en_name": "Laos",
+                    "flag": "images/flags/Laos.svg.png"
+                },
+                {
+                    "state": "Латвия",
+                    "full_name": "Латвийская Республика",
+                    "en_name": "Latvia",
+                    "flag": "images/flags/Latvia.svg.png"
+                },
+                {
+                    "state": "Лесото",
+                    "full_name": "Королевство Лесото",
+                    "en_name": "Lesotho",
+                    "flag": "images/flags/Lesotho.svg.png"
+                },
+                {
+                    "state": "Либерия",
+                    "full_name": "Республика Либерия",
+                    "en_name": "Liberia",
+                    "flag": "images/flags/Liberia.svg.png"
+                },
+                {
+                    "state": "Ливан",
+                    "full_name": "Ливанская Республика",
+                    "en_name": "Lebanon",
+                    "flag": "images/flags/Lebanon.svg.png"
+                },
+                {
+                    "state": "Ливия",
+                    "full_name": "Ливийская Республика",
+                    "en_name": "Libya",
+                    "flag": "images/flags/Libya.svg.png"
+                },
+                {
+                    "state": "Литва",
+                    "full_name": "Литовская Республика",
+                    "en_name": "Lithuania",
+                    "flag": "images/flags/Lithuania.svg.png"
+                },
+                {
+                    "state": "Лихтенштейн",
+                    "full_name": "Княжество Лихтенштейн",
+                    "en_name": "Liechtenstein",
+                    "flag": "images/flags/Liechtenstein.svg.png"
+                },
+                {
+                    "state": "Люксембург",
+                    "full_name": "Великое Герцогство Люксембург",
+                    "en_name": "Luxembourg",
+                    "flag": "images/flags/Luxembourg.svg.png"
+                },
+                {
+                    "state": "Маврикий",
+                    "full_name": "Республика Маврикий",
+                    "en_name": "Republic of Mauritius",
+                    "flag": "images/flags/Mauritius.svg.png"
+                },
+                {
+                    "state": "Мавритания",
+                    "full_name": "Исламская Республика Мавритания",
+                    "en_name": "Mauritania",
+                    "flag": "images/flags/Mauritania.svg.png"
+                },
+                {
+                    "state": "Мадагаскар",
+                    "full_name": "Республика Мадагаскар",
+                    "en_name": "Madagascar",
+                    "flag": "images/flags/Madagascar.svg.png"
+                },
+                {
+                    "state": "Майотта",
+                    "full_name": "заморский регион Франции",
+                    "en_name": "Mayotte",
+                    "flag": "images/flags/Mayotte.svg.png"
+                },
+                {
+                    "state": "Макао",
+                    "full_name": "Макао (Аомынь) — Специальный административный район Аомынь Китайской Народной Республики: территория, управляемая Китаем на основе специального международного соглашения",
+                    "en_name": "Macau",
+                    "flag": "images/flags/Macau.svg.png"
+                },
+                {
+                    "state": "Македония",
+                    "full_name": "Республика Македония. Альтернативное название: Бывшая Югославская Республика Македония",
+                    "en_name": "Macedonia",
+                    "flag": "images/flags/Macedonia.svg.png"
+                },
+                {
+                    "state": "Малави",
+                    "full_name": "Республика Малави",
+                    "en_name": "Malawi",
+                    "flag": "images/flags/Malawi.svg.png"
+                },
+                {
+                    "state": "Малайзия",
+                    "full_name": "Малайзия",
+                    "en_name": "Malaysia",
+                    "flag": "images/flags/Malaysia.svg.png"
+                },
+                {
+                    "state": "Мали",
+                    "full_name": "Республика Мали",
+                    "en_name": "Mali",
+                    "flag": "images/flags/Mali.svg.png"
+                },
+                {
+                    "state": "Мальдивы",
+                    "full_name": "Мальдивская Республика",
+                    "en_name": "Maldives",
+                    "flag": "images/flags/Maldives.svg.png"
+                },
+                {
+                    "state": "Мальта",
+                    "full_name": "Республика Мальта",
+                    "en_name": "Malta",
+                    "flag": "images/flags/Malta.svg.png"
+                },
+                {
+                    "state": "Марокко",
+                    "full_name": "Королевство Марокко",
+                    "en_name": "Morocco",
+                    "flag": "images/flags/Morocco.svg.png"
+                },
+                {
+                    "state": "Мартиника",
+                    "full_name": "заморский регион Франции",
+                    "en_name": "Martinique",
+                    "flag": "images/flags/Martinique.svg.png"
+                },
+                {
+                    "state": "Маршалловы Острова",
+                    "full_name": "Республика Маршалловы Острова",
+                    "en_name": "Marshall Islands",
+                    "flag": "images/flags/Marshall_Islands.svg.png"
+                },
+                {
+                    "state": "Мексика",
+                    "full_name": "Мексиканские Соединённые Штаты",
+                    "en_name": "Mexico",
+                    "flag": "images/flags/Mexico.svg.png"
+                },
+                {
+                    "state": "Микронезия",
+                    "full_name": "Федеративные Штаты Микронезии",
+                    "en_name": "Federated States of Micronesia",
+                    "flag": "images/flags/Federated_States_of_Micronesia.svg.png"
+                },
+                {
+                    "state": "Мозамбик",
+                    "full_name": "Республика Мозамбик",
+                    "en_name": "Mozambique",
+                    "flag": "images/flags/Mozambique.svg.png"
+                },
+                {
+                    "state": "Молдавия",
+                    "full_name": "Республика Молдова",
+                    "en_name": "Moldova",
+                    "flag": "images/flags/Moldova.svg.png"
+                },
+                {
+                    "state": "Монако",
+                    "full_name": "Княжество Монако",
+                    "en_name": "Monaco",
+                    "flag": "images/flags/Monaco.svg.png"
+                },
+                {
+                    "state": "Монголия",
+                    "full_name": "Монголия",
+                    "en_name": "Mongolia",
+                    "flag": "images/flags/Mongolia.svg.png"
+                },
+                {
+                    "state": "Монтсеррат",
+                    "full_name": "заморская территория Великобритании",
+                    "en_name": "Montserrat",
+                    "flag": "images/flags/Montserrat.svg.png"
+                },
+                {
+                    "state": "Мьянма",
+                    "full_name": "Союз Мьянма. До 1989 года: Бирма",
+                    "en_name": "Myanmar",
+                    "flag": "images/flags/Myanmar.svg.png"
+                },
+                {
+                    "state": "Остров Мэн",
+                    "full_name": "Остров Мэн: коронная земля Великобритании",
+                    "en_name": "Isle of Man",
+                    "flag": "images/flags/Isle_of_Man.svg.png"
+                },
+                {
+                    "state": "Нагорно-Карабахская Республика",
+                    "full_name": "признана частично признанными Абхазией, Южной Осетией и непризнанной ПМР; согласно конституции Азербайджанской Республики, входит в состав Азербайджана",
+                    "en_name": "Nagorno-Karabakh",
+                    "flag": "images/flags/Nagorno-Karabakh.svg.png"
+                },
+                {
+                    "state": "Намибия",
+                    "full_name": "Республика Намибия",
+                    "en_name": "Namibia",
+                    "flag": "images/flags/Namibia.svg.png"
+                },
+                {
+                    "state": "Науру",
+                    "full_name": "Республика Науру",
+                    "en_name": "Nauru",
+                    "flag": "images/flags/Nauru.svg.png"
+                },
+                {
+                    "state": "Непал",
+                    "full_name": "Федеративная Демократическая Республика Непал",
+                    "en_name": "Nepal",
+                    "flag": "images/flags/Nepal.svg.png"
+                },
+                {
+                    "state": "Нигер",
+                    "full_name": "Республика Нигер",
+                    "en_name": "Niger",
+                    "flag": "images/flags/Niger.svg.png"
+                },
+                {
+                    "state": "Нигерия",
+                    "full_name": "Федеративная Республика Нигерия",
+                    "en_name": "Nigeria",
+                    "flag": "images/flags/Nigeria.svg.png"
+                },
+                {
+                    "state": "Нидерланды",
+                    "full_name": "Королевство Нидерландов",
+                    "en_name": "Netherlands",
+                    "flag": "images/flags/Netherlands.svg.png"
+                },
+                {
+                    "state": "Никарагуа",
+                    "full_name": "Республика Никарагуа",
+                    "en_name": "Nicaragua",
+                    "flag": "images/flags/Nicaragua.svg.png"
+                },
+                {
+                    "state": "Ниуэ",
+                    "full_name": "самоуправляющееся государственное образование в свободной ассоциации с Новой Зеландией",
+                    "en_name": "Niue",
+                    "flag": "images/flags/Niue.svg.png"
+                },
+                {
+                    "state": "Новая Зеландия",
+                    "full_name": "Новая Зеландия",
+                    "en_name": "New Zealand",
+                    "flag": "images/flags/New_Zealand.svg.png"
+                },
+                {
+                    "state": "Новая Каледония",
+                    "full_name": "заморское административно-территориальное образование с особым статусом Франции",
+                    "en_name": "New Caledonia",
+                    "flag": "images/flags/New_Caledonia.svg.png"
+                },
+                {
+                    "state": "Норвегия",
+                    "full_name": "Королевство Норвегия",
+                    "en_name": "Norway",
+                    "flag": "images/flags/Norway.svg.png"
+                },
+                {
+                    "state": "Норфолк остров",
+                    "full_name": "внешняя территория Австралии",
+                    "en_name": "Norfolk Island",
+                    "flag": "images/flags/Norfolk_Island.svg.png"
+                },
+                {
+                    "state": "Объединённые Арабские Эмираты",
+                    "full_name": "Объединённые Арабские Эмираты",
+                    "en_name": "United Arab Emirates",
+                    "flag": "images/flags/United_Arab_Emirates.svg.png"
+                },
+                {
+                    "state": "Оман",
+                    "full_name": "Султанат Оман",
+                    "en_name": "Oman",
+                    "flag": "images/flags/Oman.svg.png"
+                },
+                {
+                    "state": "Пакистан",
+                    "full_name": "Исламская Республика Пакистан",
+                    "en_name": "Pakistan",
+                    "flag": "images/flags/Pakistan.svg.png"
+                },
+                {
+                    "state": "Палау",
+                    "full_name": "Республика Палау. Альтернативное название: Белау",
+                    "en_name": "Palau",
+                    "flag": "images/flags/Palau.svg.png"
+                },
+                {
+                    "state": "Палестина",
+                    "full_name": "Палестинская национальная администрация Государство Палестина, территория, частично оккупированная Израилем; включает Сектор Газа и Западный берег реки Иордан",
+                    "en_name": "Palestine",
+                    "flag": "images/flags/Palestine.svg.png"
+                },
+                {
+                    "state": "Панама",
+                    "full_name": "Республика Панама",
+                    "en_name": "Panama",
+                    "flag": "images/flags/Panama.svg.png"
+                },
+                {
+                    "state": "Папуа — Новая Гвинея",
+                    "full_name": "Независимое Государство Папуа — Новая Гвинея",
+                    "en_name": "Papua New Guinea",
+                    "flag": "images/flags/Papua_New_Guinea.svg.png"
+                },
+                {
+                    "state": "Парагвай",
+                    "full_name": "Республика Парагвай",
+                    "en_name": "Paraguay",
+                    "flag": "images/flags/Paraguay.svg.png"
+                },
+                {
+                    "state": "Перу",
+                    "full_name": "Республика Перу",
+                    "en_name": "Peru",
+                    "flag": "images/flags/Peru.svg.png"
+                },
+                {
+                    "state": "Питкэрн острова",
+                    "full_name": "Острова Питкэрн - заморская территория Великобритании",
+                    "en_name": "Pitcairn Islands",
+                    "flag": "images/flags/Pitcairn_Islands.svg.png"
+                },
+                {
+                    "state": "Полинезия Французская",
+                    "full_name": "заморское сообщество Франции",
+                    "en_name": "French Polynesia",
+                    "flag": "images/flags/French_Polynesia.svg.png"
+                },
+                {
+                    "state": "Польша",
+                    "full_name": "Республика Польша",
+                    "en_name": "Poland",
+                    "flag": "images/flags/Poland.svg.png"
+                },
+                {
+                    "state": "Португалия",
+                    "full_name": "Португальская Республика",
+                    "en_name": "Portugal",
+                    "flag": "images/flags/Portugal.svg.png"
+                },
+                {
+                    "state": "Приднестровье",
+                    "full_name": "Приднестровье — признана частично признанными Абхазией, Южной Осетией и непризнанной НКР; согласно конституции Молдавии, входит в её состав. Альтернативное название: Приднестровье",
+                    "en_name": "Transnistria",
+                    "flag": "images/flags/Transnistria.svg.png"
+                },
+                {
+                    "state": "Пуэрто-Рико",
+                    "full_name": "Пуэрто-Рико — Содружество Пуэрто-Рико: заморское владение (неприсоединённая территория) США",
+                    "en_name": "Puerto Rico",
+                    "flag": "images/flags/Puerto_Rico.svg.png"
+                },
+                {
+                    "state": "Реюньон",
+                    "full_name": "Реюньон — заморский регион Франции",
+                    "en_name": "Reunion",
+                    "flag": "images/flags/Reunion.gif"
+                },
+                {
+                    "state": "Рождества остров",
+                    "full_name": "Рождества остров — внешняя территория Австралии",
+                    "en_name": "Christmas Island",
+                    "flag": "images/flags/Christmas_Island.svg.png"
+                },
+                {
+                    "state": "Россия",
+                    "full_name": "Россия — Российская Федерация",
+                    "en_name": "Russia",
+                    "flag": "images/flags/Russia.svg.png"
+                },
+                {
+                    "state": "Руанда",
+                    "full_name": "Руанда — Республика Руанда",
+                    "en_name": "Rwanda",
+                    "flag": "images/flags/Rwanda.svg.png"
+                },
+                {
+                    "state": "Румыния",
+                    "full_name": "Румыния",
+                    "en_name": "Romania",
+                    "flag": "images/flags/Romania.svg.png"
+                },
+                {
+                    "state": "Саба",
+                    "full_name": "Саба — особая община в составе Карибских Нидерландов. До 2010 года: Нидерландские Антильские острова",
+                    "en_name": "Saba",
+                    "flag": "images/flags/Saba.svg.png"
+                },
+                {
+                    "state": "Сальвадор",
+                    "full_name": "Сальвадор — Республика Эль-Сальвадор",
+                    "en_name": "Salvador",
+                    "flag": "images/flags/El_Salvador.svg.png"
+                },
+                {
+                    "state": "Самоа",
+                    "full_name": "Самоа — Независимое Государство Самоа. До 1997 года: Западное Самоа",
+                    "en_name": "Samoa",
+                    "flag": "images/flags/Samoa.svg.png"
+                },
+                {
+                    "state": "Самоа Американское",
+                    "full_name": "Самоа Американское — заморское владение (неприсоединённая территория) США. Альтернативное название: Восточное Самоа",
+                    "en_name": "American Samoa",
+                    "flag": "images/flags/American_Samoa.svg.png"
+                },
+                {
+                    "state": "Сан-Марино",
+                    "full_name": "Сан-Марино — Республика Сан-Марино",
+                    "en_name": "San Marino",
+                    "flag": "images/flags/San_Marino.svg.png"
+                },
+                {
+                    "state": "Сан-Томе и Принсипи",
+                    "full_name": "Сан-Томе и Принсипи — Демократическая Республика Сан-Томе и Принсипи",
+                    "en_name": "Sao Tome and Principe",
+                    "flag": "images/flags/Sao_Tome_and_Principe.svg.png"
+                },
+                {
+                    "state": "Саудовская Аравия",
+                    "full_name": "Королевство Саудовская Аравия",
+                    "en_name": "Saudi Arabia",
+                    "flag": "images/flags/Saudi_Arabia.svg.png"
+                },
+                {
+                    "state": "Сахарская Арабская Демократическая Республика",
+                    "full_name": "Сахарская Арабская Демократическая Республика — большая часть территории оккупирована и интегрирована в Марокко. Альтернативное название: Западная Сахара",
+                    "en_name": "Sahrawi Arab Democratic Republic",
+                    "flag": "images/flags/Sahrawi_Arab_Democratic_Republic.svg.png"
+                },
+                {
+                    "state": "Свазиленд",
+                    "full_name": "Королевство Свазиленд",
+                    "en_name": "Swaziland",
+                    "flag": "images/flags/Swaziland.svg.png"
+                },
+                {
+                    "state": "Вознесения и Тристан-да-Кунья острова",
+                    "full_name": "Вознесения и Тристан-да-Кунья острова — заморская территория Великобритании",
+                    "en_name": "Saint_Helena",
+                    "flag": "images/flags/Saint_Helena.svg.png"
+                },
+                {
+                    "state": "Северные Марианские острова",
+                    "full_name": "Северные Марианские острова — Содружество Северных Марианских Островов (США): заморское владение (неприсоединённая территория) США",
+                    "en_name": "Northern Mariana Islands",
+                    "flag": "images/flags/Northern_Mariana_Islands.svg.png"
+                },
+                {
+                    "state": "Сейшельские Острова",
+                    "full_name": "Республика Сейшельские Острова. Альтернативное название: Сейшелы",
+                    "en_name": "Seychelles",
+                    "flag": "images/flags/Seychelles.svg.png"
+                },
+                {
+                    "state": "Сенегал",
+                    "full_name": "Республика Сенегал",
+                    "en_name": "Senegal",
+                    "flag": "images/flags/Senegal.svg.png"
+                },
+                {
+                    "state": "Сен-Бартелеми",
+                    "full_name": "Сен-Бартелеми — заморское сообщество Франции",
+                    "en_name": "Saint Barthelemy",
+                    "flag": "images/flags/Saint_Barthelemy.svg.png"
+                },
+                {
+                    "state": "Сен-Мартен",
+                    "full_name": "Сен-Мартен — заморское сообщество Франции",
+                    "en_name": "Saint-Martin",
+                    "flag": "images/flags/Saint-Martin.svg.png"
+                },
+                {
+                    "state": "Сен-Пьер и Микелон",
+                    "full_name": "Сен-Пьер и Микелон — заморское сообщество Франции",
+                    "en_name": "Saint-Pierre and Miquelon",
+                    "flag": "images/flags/Saint-Pierre_and_Miquelon.svg.png"
+                },
+                {
+                    "state": "Сент-Винсент и Гренадины",
+                    "full_name": "Сент-Винсент и Гренадины",
+                    "en_name": "Saint Vincent and the Grenadines",
+                    "flag": "images/flags/Saint_Vincent_and_the_Grenadines.svg.png"
+                },
+                {
+                    "state": "Сент-Китс и Невис",
+                    "full_name": "Федерация Сент-Китс и Невис",
+                    "en_name": "Kitts and Nevis",
+                    "flag": "images/flags/Saint_Kitts_and_Nevis.svg.png"
+                },
+                {
+                    "state": "Сент-Люсия",
+                    "full_name": "Сент-Люсия",
+                    "en_name": "Saint Lucia",
+                    "flag": "images/flags/Saint_Lucia.svg.png"
+                },
+                {
+                    "state": "Сербия",
+                    "full_name": "Республика Сербия",
+                    "en_name": "Serbia",
+                    "flag": "images/flags/Serbia.svg.png"
+                },
+                {
+                    "state": "Сингапур",
+                    "full_name": "Республика Сингапур",
+                    "en_name": "Singapore",
+                    "flag": "images/flags/Singapore.svg.png"
+                },
+                {
+                    "state": "Синт-Мартен",
+                    "full_name": "Синт-Мартен — самоуправляемое государство со значительной автономией в составе Королевства Нидерландов. До 2010 года: Нидерландские Антильские острова",
+                    "en_name": "Sint Maarten",
+                    "flag": "images/flags/Sint_Maarten.svg.png"
+                },
+                {
+                    "state": "Синт-Эстатиус",
+                    "full_name": "Синт-Эстатиус — особая община в составе Карибских Нидерландов. До 2010 года: Нидерландские Антильские острова",
+                    "en_name": "Sint Eustatius",
+                    "flag": "images/flags/Sint_Eustatius.svg.png"
+                },
+                {
+                    "state": "Сирия",
+                    "full_name": "Сирийская Арабская Республика",
+                    "en_name": "Syria",
+                    "flag": "images/flags/Syria.svg.png"
+                },
+                {
+                    "state": "Словакия",
+                    "full_name": "Словацкая Республика",
+                    "en_name": "Slovakia",
+                    "flag": "images/flags/Slovakia.svg.png"
+                },
+                {
+                    "state": "Словения",
+                    "full_name": "Республика Словения",
+                    "en_name": "Slovenia",
+                    "flag": "images/flags/Slovenia.svg.png"
+                },
+                {
+                    "state": "США",
+                    "full_name": "Соединённые Штаты Америки",
+                    "en_name": "USA",
+                    "flag": "images/flags/United_States.svg.png"
+                },
+                {
+                    "state": "Соломоновы Острова",
+                    "full_name": "Соломоновы Острова. Альтернативное название: Соломоны",
+                    "en_name": "Solomon Islands",
+                    "flag": "images/flags/Solomon_Islands.svg.png"
+                },
+                {
+                    "state": "Сомали",
+                    "full_name": "Сомали — Сомалийская Республика, ранее Сомалийская Демократическая Республика: разделена на несколько враждующих группировок и де-факто независимый Сомалиленд на севере",
+                    "en_name": "Somalia",
+                    "flag": "images/flags/Somalia.svg.png"
+                },
+                {
+                    "state": "Судан",
+                    "full_name": "Республика Судан",
+                    "en_name": "Sudan",
+                    "flag": "images/flags/Sudan.svg.png"
+                },
+                {
+                    "state": "Суринам",
+                    "full_name": "Республика Суринам",
+                    "en_name": "Suriname",
+                    "flag": "images/flags/Suriname.svg.png"
+                },
+                {
+                    "state": "Сьерра-Леоне",
+                    "full_name": "Республика Сьерра-Леоне",
+                    "en_name": "Sierra Leone",
+                    "flag": "images/flags/Sierra_Leone.svg.png"
+                },
+                {
+                    "state": "Таджикистан",
+                    "full_name": "Республика Таджикистан",
+                    "en_name": "Tajikistan",
+                    "flag": "images/flags/Tajikistan.svg.png"
+                },
+                {
+                    "state": "Таиланд",
+                    "full_name": "Королевство Таиланд",
+                    "en_name": "Thailand",
+                    "flag": "images/flags/Thailand.svg.png"
+                },
+                {
+                    "state": "Танзания",
+                    "full_name": "Объединённая Республика Танзания",
+                    "en_name": "Tanzania",
+                    "flag": "images/flags/Tanzania.svg.png"
+                },
+                {
+                    "state": "Тёркс и Кайкос",
+                    "full_name": "Острова Тёркс и Кайкос: заморская территория Великобритании",
+                    "en_name": "Turks and Caicos Islands",
+                    "flag": "images/flags/Turks_and_Caicos_Islands.svg.png"
+                },
+                {
+                    "state": "Того",
+                    "full_name": "Того — Тоголезская Республика",
+                    "en_name": "Togo",
+                    "flag": "images/flags/Togo.svg.png"
+                },
+                {
+                    "state": "Токелау",
+                    "full_name": "Токелау — ранее Токелау (Юнион): зависимая территория Новой Зеландии",
+                    "en_name": "Tokelau",
+                    "flag": "images/flags/Tokelau.svg.png"
+                },
+                {
+                    "state": "Тонга",
+                    "full_name": "Королевство Тонга",
+                    "en_name": "Tonga",
+                    "flag": "images/flags/Tonga.svg.png"
+                },
+                {
+                    "state": "Тринидад и Тобаго",
+                    "full_name": "Республика Тринидад и Тобаго",
+                    "en_name": "Trinidad and Tobago",
+                    "flag": "images/flags/Trinidad_and_Tobago.svg.png"
+                },
+                {
+                    "state": "Тувалу",
+                    "full_name": "Тувалу",
+                    "en_name": "Tuvalu",
+                    "flag": "images/flags/Tuvalu.svg.png"
+                },
+                {
+                    "state": "Тунис",
+                    "full_name": "Тунисская Республика",
+                    "en_name": "Tunisia",
+                    "flag": "images/flags/Tunisia.svg.png"
+                },
+                {
+                    "state": "Туркмения",
+                    "full_name": "Туркмения",
+                    "en_name": "Turkmenistan",
+                    "flag": "images/flags/Turkmenistan.svg.png"
+                },
+                {
+                    "state": "Турция",
+                    "full_name": "Турецкая Республика",
+                    "en_name": "Turkey",
+                    "flag": "images/flags/Turkey.svg.png"
+                },
+                {
+                    "state": "Уганда",
+                    "full_name": "Республика Уганда",
+                    "en_name": "Uganda",
+                    "flag": "images/flags/Uganda.svg.png"
+                },
+                {
+                    "state": "Узбекистан",
+                    "full_name": "Республика Узбекистан",
+                    "en_name": "Uzbekistan",
+                    "flag": "images/flags/Uzbekistan.svg.png"
+                },
+                {
+                    "state": "Украина",
+                    "full_name": "Украина",
+                    "en_name": "Ukraine",
+                    "flag": "images/flags/Ukraine.svg.png"
+                },
+                {
+                    "state": "Уоллис и Футуна",
+                    "full_name": "Уоллис и Футуна — Территория островов Уоллис и Футуна: заморское сообщество Франции",
+                    "en_name": "Wallis and Futuna",
+                    "flag": "images/flags/France.svg.png"
+                },
+                {
+                    "state": "Уругвай",
+                    "full_name": "Восточная Республика Уругвай",
+                    "en_name": "Uruguay",
+                    "flag": "images/flags/Uruguay.svg.png"
+                },
+                {
+                    "state": "Фареры",
+                    "full_name": "Фареры — зависимая территория (автономный регион) Дании. Альтернативное название: Фареры",
+                    "en_name": "Faroe Islands",
+                    "flag": "images/flags/Faroe_Islands.svg.png"
+                },
+                {
+                    "state": "Фиджи",
+                    "full_name": "Республика Фиджи",
+                    "en_name": "Fiji",
+                    "flag": "images/flags/Fiji.svg.png"
+                },
+                {
+                    "state": "Филиппины",
+                    "full_name": "Республика Филиппины",
+                    "en_name": "Philippines",
+                    "flag": "images/flags/Philippines.svg.png"
+                },
+                {
+                    "state": "Финляндия",
+                    "full_name": "Финляндская Республика",
+                    "en_name": "Finland",
+                    "flag": "images/flags/Finland.svg.png"
+                },
+                {
+                    "state": "Фолклендские острова",
+                    "full_name": "Фолклендские острова — заморская территория Великобритании, оспаривается Аргентиной. Альтернативное название: Фолкленды",
+                    "en_name": "Falkland Islands",
+                    "flag": "images/flags/Falkland_Islands.svg.png"
+                },
+                {
+                    "state": "Франция",
+                    "full_name": "Французская Республика",
+                    "en_name": "France",
+                    "flag": "images/flags/France.svg.png"
+                },
+                {
+                    "state": "Хорватия",
+                    "full_name": "Республика Хорватия",
+                    "en_name": "Croatia",
+                    "flag": "images/flags/Croatia.svg.png"
+                },
+                {
+                    "state": "ЦАР",
+                    "full_name": "Центральноафриканская Республика",
+                    "en_name": "Central African Republic",
+                    "flag": "images/flags/Central_African_Republic.svg.png"
+                },
+                {
+                    "state": "Чад",
+                    "full_name": "Республика Чад",
+                    "en_name": "Chad",
+                    "flag": "images/flags/Chad.svg.png"
+                },
+                {
+                    "state": "Черногория",
+                    "full_name": "Черногория",
+                    "en_name": "Montenegro",
+                    "flag": "images/flags/Montenegro.svg.png"
+                },
+                {
+                    "state": "Чехия",
+                    "full_name": "Чешская Республика",
+                    "en_name": "Czech Republic",
+                    "flag": "images/flags/Czech_Republic.svg.png"
+                },
+                {
+                    "state": "Чили",
+                    "full_name": "Республика Чили",
+                    "en_name": "Chile",
+                    "flag": "images/flags/Chile.svg.png"
+                },   
+                {
+                    "state": "Швейцария",
+                    "full_name": "Швейцарская Конфедерация",
+                    "en_name": "Switzerland",
+                    "flag": "images/flags/Switzerland.svg.png"
+                }, 
+                {
+                    "state": "Швеция",
+                    "full_name": "Королевство Швеция",
+                    "en_name": "Sweden",
+                    "flag": "images/flags/Sweden.svg.png"
+                },
+                {
+                    "state": "Шри-Ланка",
+                    "full_name": "Демократическая Социалистическая Республика Шри-Ланка",
+                    "en_name": "Sri Lanka",
+                    "flag": "images/flags/Sri_Lanka.svg.png"
+                },
+                {
+                    "state": "Эквадор",
+                    "full_name": "Республика Эквадор",
+                    "en_name": "Ecuador",
+                    "flag": "images/flags/Ecuador.svg.png"
+                },
+                {
+                    "state": "Экваториальная Гвинея",
+                    "full_name": "Республика Экваториальная Гвинея",
+                    "en_name": "Equatorial Guinea",
+                    "flag": "images/flags/Equatorial_Guinea.svg.png"
+                },
+                {
+                    "state": "Эритрея",
+                    "full_name": "Государство Эритрея",
+                    "en_name": "Eritrea",
+                    "flag": "images/flags/Eritrea.svg.png"
+                },
+                {
+                    "state": "Эстония",
+                    "full_name": "Эстонская Республика",
+                    "en_name": "Estonia",
+                    "flag": "images/flags/Estonia.svg.png"
+                },
+                {
+                    "state": "Эфиопия",
+                    "full_name": "Федеративная Демократическая Республика Эфиопия",
+                    "en_name": "Ethiopia",
+                    "flag": "images/flags/Ethiopia.svg.png"
+                },
+                {
+                    "state": "Южная Осетия",
+                    "full_name": "Южная Осетия — государство, признанное пятью странами-членами ООН: Российской Федерацией, Никарагуа, Венесуэлой, Науру и Тувалу, двумя частично признанными государствами: Абхазией и САДР, а также двумя непризнанными государствами: НКР и ПМР; согласно конституции Грузии, входит в состав Грузии",
+                    "en_name": "South Ossetia",
+                    "flag": "images/flags/South_Ossetia.svg.png"
+                },
+                {
+                    "state": "ЮАР",
+                    "full_name": "Южно-Африканская Республика",
+                    "en_name": "South Africa",
+                    "flag": "images/flags/South_Africa.svg.png"
+                },
+                {
+                    "state": "Южный Судан",
+                    "full_name": "Республика Южный Судан",
+                    "en_name": "South Sudan",
+                    "flag": "images/flags/South_Sudan.svg.png"
+                },
+                {
+                    "state": "Ямайка",
+                    "full_name": "Ямайка",
+                    "en_name": "Jamaica",
+                    "flag": "images/flags/Jamaica.svg.png"
+                },
+                {
+                    "state": "Япония",
+                    "full_name": "Япония",
+                    "en_name": "Japan",
+                    "flag": "images/flags/Japan.svg.png"
+                }
+
+            ]
+}

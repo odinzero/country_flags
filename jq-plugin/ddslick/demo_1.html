@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <script src="../../../js/libs/jquery/jquery-1.11.1.js"></script>
+        <script src="ddsclick.js"></script>
+        <style>
+             #demo-htmlselect1
+            {
+                position: absolute; left: 400px; top: 20px;width: 160px; height: 400px;
+            }
+            #demo-htmlselect2
+            {
+                position: absolute; left: 900px; top: 20px;width: 160px; height: 400px;
+            }
+        </style>
+    </head>
+    <body>
+         <select id="demo-htmlselect1" size="5">
+            <option value="0" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/facebook-icon-32.png"
+                    data-description="Description with Facebook">Facebook</option>
+            <option value="1" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/twitter-icon-32.png"
+                    data-description="Description with Twitter">Twitter</option>
+            <option value="2" selected="selected" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/linkedin-icon-32.png"
+                    data-description="Description with LinkedIn">LinkedIn</option>
+            <option value="3" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/foursquare-icon-32.png"
+                    data-description="Description with Foursquare">Foursquare</option>
+        </select>
+        
+        
+         <select id="demo-htmlselect2" size="5">
+            <option value="0" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/facebook-icon-32.png"
+                    data-description="Description with Facebook">Facebook</option>
+            <option value="1" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/twitter-icon-32.png"
+                    data-description="Description with Twitter">Twitter</option>
+            <option value="2" selected="selected" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/linkedin-icon-32.png"
+                    data-description="Description with LinkedIn">LinkedIn</option>
+            <option value="3" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/foursquare-icon-32.png"
+                    data-description="Description with Foursquare">Foursquare</option>
+        </select>
+        
+        <input type="button" value=" >> " id="right" />
+        <input type="button" value=" << " id="left" />
+        
+         <script>
+            $('#demo-htmlselect1').ddslick({
+              onSelected: function(selectedData) {
+                    //callback function: do something with selectedData;
+              }
+            }); 
+            $('#demo-htmlselect2').ddslick({
+              onSelected: function(selectedData) {
+                    //callback function: do something with selectedData;
+              }
+            });
+            $('#demo-htmlselect1').ddslick('open'); 
+            $('#demo-htmlselect2').ddslick('open'); 
+            
+            
+            var d1 = document.getElementById("demo-htmlselect1");
+            var d2 = document.getElementById("demo-htmlselect2");
+            
+            
+            var r = document.getElementById("right");
+            var l = document.getElementById("left");
+
+            r.addEventListener("click", function() {
+                move(d1, d2);
+                //alert(select2.length);
+            });
+            l.addEventListener("click", function() {
+                move(d2, d1);
+            });
+        </script>
+        
+        
+        
+        
+        
+        
+        
+        <script>
+            var sortitems = 1; // Automatically sort items within lists? (1 or 0)
+
+            function move(fbox, tbox) {
+                 alert(fbox);
+                for (var i = 0; i < fbox.options.length; i++) {
+                    if (fbox.options[i].selected && fbox.options[i].value !== "") {
+                        var no = new Option();
+                        no.value = fbox.options[i].value;
+                        no.text = fbox.options[i].text;
+                        tbox.options[tbox.options.length] = no;
+                        fbox.options[i].value = "";
+                        fbox.options[i].text = "";
+                    }
+                }
+                BumpUp(fbox);
+                if (sortitems)
+                    SortD(tbox);
+            }
+
+            function BumpUp(box) {
+                for (var i = 0; i < box.options.length; i++) {
+                    if (box.options[i].value == "") {
+                        for (var j = i; j < box.options.length - 1; j++) {
+                            box.options[j].value = box.options[j + 1].value;
+                            box.options[j].text = box.options[j + 1].text;
+                        }
+                        var ln = i;
+                        // alert(ln);
+                        break;
+                    }
+                }
+                if (ln < box.options.length) {
+                    box.options.length -= 1;
+                    BumpUp(box);
+                }
+            }
+
+            function SortD(box) {
+                var temp_opts = new Array();
+                var temp = new Object();
+                for (var i = 0; i < box.options.length; i++) {
+                    temp_opts[i] = box.options[i];
+                }
+                for (var x = 0; x < temp_opts.length - 1; x++) {
+                    for (var y = (x + 1); y < temp_opts.length; y++) {
+                        if (temp_opts[x].text > temp_opts[y].text) {
+                            temp = temp_opts[x].text;
+                            temp_opts[x].text = temp_opts[y].text;
+                            temp_opts[y].text = temp;
+                            temp = temp_opts[x].value;
+                            temp_opts[x].value = temp_opts[y].value;
+                            temp_opts[y].value = temp;
+                        }
+                    }
+                }
+                for (var i = 0; i < box.options.length; i++) {
+                    box.options[i].value = temp_opts[i].value;
+                    box.options[i].text = temp_opts[i].text;
+                }
+            }
+        </script>
+    </body>
+</html>

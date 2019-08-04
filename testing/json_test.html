@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- -->
+<html>
+    <head>
+        <title>json</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            function json_Data()
+            {
+                var xhp = new XMLHttpRequest();
+                xhp.open('GET', 'countries.json', true);
+                xhp.send();
+                xhp.onreadystatechange = function()
+                {
+                    if (xhp.readyState === 4)
+                    {
+                        var json = eval('(' + xhp.responseText + ')');
+                        document.getElementById('ddd').style.display = 'block';
+                        document.getElementById('res0').innerHTML = json.country[1].state;
+                        document.getElementById('res1').innerHTML = json.country[1].full_name;
+                        document.getElementById('res2').src = json.country[1].flag;
+                    }
+
+                }
+            }
+            function json_Data1()
+            {
+                var xhp = new XMLHttpRequest();
+                xhp.open('GET', 'rus_bookstore.json', true);
+                xhp.send();
+                xhp.onreadystatechange = function()
+                {
+                    if (xhp.readyState == 4)
+                    {
+                        var json = eval('(' + xhp.responseText + ')');
+                        document.getElementById('ddd').style.display = 'block';
+
+                        var objSel = document.getElementById("choice");
+                      //  document.getElementById("ddd").innerHTML = objSel.options[objSel.selectedIndex].value;
+                        //  var selVal = document.getElementById("ddd").innerHTML;
+
+
+                        document.getElementById('res0').innerHTML = json.bookbase[objSel.selectedIndex].title;
+                        document.getElementById('res1').innerHTML = json.bookbase[objSel.selectedIndex].author;
+                        document.getElementById('res2').innerHTML = json.bookbase[objSel.selectedIndex].cost;
+                        document.getElementById('res3').innerHTML = json.bookbase[objSel.selectedIndex].quantity;
+                    }
+
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="button" value="Отобразить содержимое"  onclick="json_Data()"/>
+        <br>
+        <select name="choice" id="choice" onclick="json_Data()">
+            <option>----</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+        </select>
+        <div id="ddd" style="display: none;">
+            <hr>
+            <p>state : <b><span id="res0"></span></b></p>
+            <p>full_name : <b><span id="res1"></span></b></p>
+            <p>flag : <b><img id="res2" src="" width=20 height=20></b></p>
+            
+            <hr>
+        </div>
+    </body>
+</html>
